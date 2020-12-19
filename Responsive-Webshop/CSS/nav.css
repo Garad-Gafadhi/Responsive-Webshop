@@ -1,0 +1,48 @@
+
+.btn-badge {
+    padding: 0.35rem 0.5rem;
+    top: -15px !important;
+    right: -15px !important;
+    height: 20px !important;
+    width: 20px !important;
+    margin-right: 2px;
+}
+
+.header{
+    background:rgba(36, 36, 36, 0.808);
+    width: 100%!important;
+    height: 5rem!important;
+    font-family: sans-serif;
+}
+
+
+.contact {
+    text-align:  center;
+    justify-content: center;
+}
+.btn {
+    margin-bottom: -2rem;
+}
+
+/* social media icons */
+.icon-move {
+display: flex;
+cursor: pointer;
+
+}
+@media (max-width:576px) {
+    .icon-move {
+        margin-top:.3rem !important;
+        font-size: 29px;
+        /* text-align: center; */
+        justify-content: center;
+    }
+} 
+@media (min-width:576px) {
+    .icon-move {
+        margin-top:.5rem !important;
+        font-size: 20px;
+       
+        justify-content: flex-end;
+    }
+} 

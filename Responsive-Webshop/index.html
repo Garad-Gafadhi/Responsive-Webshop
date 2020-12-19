@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,600,700|Open+Sans:300,400,600,700"
+        rel="stylesheet">
+    <!-- Font Awesome link -->
+    <script src="https://kit.fontawesome.com/f4bf10d3c2.js"></script>
+    <!-- Bootstrap-cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+
+    
+    <!-- CSS File Links -->
+    <link rel="stylesheet" href="CSS/config.css">
+    <link rel="stylesheet" href="CSS/hidden-features.css">
+    <link rel="stylesheet" href="CSS/searchbar&icons.css">
+    <link rel="stylesheet" href="CSS/shpoing-carts.css">
+    <link rel="stylesheet" href="CSS/star&heart.css">
+    <link rel="stylesheet" href="CSS/products.css">
+    <link rel="stylesheet" href="CSS/nav.css" type="text/css">
+    <link rel="stylesheet" href="CSS/heading.css" type="text/css">
+    <link rel="stylesheet" href="CSS/reset-css.css" type="text/css">
+    <!--own formatting -->
+
+    <link href="css/bootstrap-override.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="max-width">
+    <header>
+
+        <!-- Navigation bar -->
+        <nav class="nav-menu">
+            <div class="header">
+                <!-- dropdown -->
+                <div class="btn-group ml-3 mt-4">
+                    <a id="user" class="btn btn-lali btn-sm  fa fa-user text-white border dropdown-toggle" href="#"
+                        role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <i class="hide-user">Garad Gafadhi</i>
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Aina Descarrega</a>
+                        <a class="dropdown-item" href="#">Nasra </a>
+                        <a class="dropdown-item" href="#">Erika Andersson</a>
+                        <a class="dropdown-item" href="#">Hadi Alba </a>
+                        <a class="dropdown-item" href="#">Ilwad Jamac </a>
+                        <a class="dropdown-item" href="#">Samraan Axmed </a>
+                    </div>
+                </div>
+                <!-- Contact -->
+                <div class="contact">
+                    <div class="btn d-flex flex-row justify-content-center align-items-center">
+                        <div class="d-flex flex-row align-items-center ">
+                            <div class="phone "> <i class="fas fa-phone text-white ml-1 "></i>
+                                <span style="color: rgb(248, 248, 248);">+(46) 732-2314</span>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row ">
+                            <div class="phone mr-1"> <i class="fas fa-envelope text-white ml-3"></i></div>
+                            <span style="color:  rgb(245, 246, 248);"> info@webshop.se</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- social media icons -->
+                <div class="icon-move mr-2 d-flex flex-row">
+                    <div class=" ">
+                        <div class=" fa fa-facebook-square ml-1 text-white"></div>
+                        <div class="fa fa-twitter-square  ml-1 text-white "></div>
+                        <div class="fa fa-pinterest-square ml-1 text-white"></div>
+                        <div class="fa fa-snapchat-square ml-1 text-white"></div>
+                        <div class="fa fa-linkedin-square  ml-1 text-white"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Alert -->
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>Black Week Discounts!</strong> Enjoy Great Discounts Uncle Jonas.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <!-- Menu and shoping icon-bars -->
+    <section id="store d-flex flex-row">
+        <div id=" my-store" class="input-group mr-5 mt-3 justify-content-center align-items-center">
+            <img id="store-img" class="logo mr-3" src="images/logo/logo.png">
+            <div id="searchbar" class="input-group-prepend ">
+                <span class="input-group-text" id="basic-addon1"><i class="fa fa-search "></i></span>
+                <input type="text" class="form-control" placeholder="Search products here" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+            <!-- Shoping carts -->
+            <div id="store-icons"
+                class="shoping-carts d-flex flex-row ml-3 mb-3 align-items-center justify-content-center">
+                <div class="menu">
+                    <p class=" ml-2 position-relative">
+                        <i class="fa fa-bars ml-3"></i>
+                    <p class=" mt-2 position-absolute">MENU</p>
+                    </p>
+                </div>
+                <div class="favs position-relative border-right">
+                    <p>
+                        <i class="fa fa-heart ml-3"></i>
+                        <span class="badge bg-success mr-4  rounded-100 btn-badge position-absolute">2</span>
+                    <p class="mt-2 ml-2 mr-2">FAVS</p>
+                    </p>
+                </div>
+                <div class="cart position-relative border-right">
+                    <p>
+                        <i class="fa fa-shopping-cart ml-5"></i>
+                        <span class="badge bg-success mr-3 rounded-100 btn-badge position-absolute">4</span>
+                    <p class="ml-4 mt-2 mr-2">$2888</p>
+                    </p>
+                </div>
+                <div class=" total position-relative">
+                    <p class="   ml-4 fa fa-file-invoice-dollar  ">
+                        <span class="badge bg-success mr-4 rounded-100 btn-badge position-absolute ">9</span>
+                    <p class="mr-3 mt-2 ">$5999</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Catagories and products -->
+    <div class="catagories-products d-flex flex-column border ">
+        <div id="catagories" class="d-flex mt-3 col-lg-3 flex-column border">
+            <div class="computer ml-2 mt-2 border-bottom py-2  "><a href=""> <i class="fas fa-tv"> TV & Entertainment
+                    </i></a> </div>
+            <div class="computer ml-2 mt-2 border-bottom py-2"><a href=""> <i class="fas fa-laptop"> Computers &
+                        Accossaries</i></a>
+            </div>
+            <div class="computer ml-2 border-bottom mt-2 py-2 "><a href=""> <i class="fas fa-mobile-alt"> Smartphones &
+                        Tablets</i></a> </div>
+            <div class="computer ml-2 py-2 mt-2 border-bottom "><a href=""> <i class="fas fa-camera-retro"> Photo &
+                        Cameras</i></a> </div>
+            <div class="computer ml-2 border-bottom mt-2 py-2 "><a href=""> <i class="fas fa-video"> Videos &
+                        Films</i></a>
+            </div>
+            <div class="computer ml-2 border-bottom py-2 mt-2 "><a href=""> <i class="fas fa-headphones-alt"> Sound &
+                        Audio</i></a> </div>
+            <div class="computer ml-2 border-bottom py-2 mt-2 "><a href=""> <i class="fab fa-playstation"> Games &
+                        Playstation
+                    </i></a> </div>
+            <div class="computer ml-2 border-bottom py-2 mt-2 "><a href=""> <i class="fas fa-print"> Printer &
+                        Inks</i></a> </div>
+            <div class="computer ml-2 border-bottom py-2 mt-2 "><a href=""> <i class="fas fa-database"> HDD &
+                        Storage </i></a> </div>
+            <div class="computer ml-2 py-2 mt-2"><a href=""> <i class="fas fa-wifi"> Wireless &
+                        Routers </i></a> </div>
+
+        </div>
+        <!-- Product-cards -->
+        <section class="products d-flex flex-column justify-content-center flex-wrap 
+        ">
+        <div class="card  col-xl-4 p-1 mt-3">
+            <div class="row no-gutters m-2">
+                <div class="col-sm-4">
+                    <div id="discount" class="d-flex flex-column text-white bg-danger position-absolute"> 95% OFF
+                    </div>
+                    <img src="images/products/headphones-64.png" class="card-img" alt="...">
+                </div>
+                <div class="col-sm-8">
+                    <div class="card-body">
+                        <div class="heart"> <i class="fas fa-heart"></i></div>
+                        <div class="card-title display-8">Headphones </div>
+                        <div class="display-11 mb-2"> Computers & Accossaries</div>
+                        <div class="display-10 mb-2">$5299</div>
+                        <p class="card-text display-9">This is a wider card with supporting text below as a natural
+                            lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <div><i class="cart fas fa-cart-plus mt-3"></i> </div>
+                        <div class="star"> 5
+                            <span class=" far fa-star position-absolute"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="card  col-xl-4 mt-3 ">
+                <div class="row no-gutters m-2">
+                    <div class="col-sm-4">
+                        <div id="discount" class="d-flex flex-column text-white bg-danger position-absolute"> 45% OFF
+                        </div>
+                        
+                        
+                        <img src="images/products/10.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="card-body">
+                            <div class="heart"> <i class="fas fa-heart "></i></div>
+                            <div class="card-title display-8">Printer </div>
+                            <div class="display-11 mb-2"> Computers & Accossaries</div>
+                            <div class="display-10 mb-2">$5299</div>
+                            <p class="card-text display-9">This is a wider card with supporting text below as a natural
+                                lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <div><i class="cart fas fa-cart-plus mt-3"></i> </div>
+                            <div class="star"> 3
+                                <span class=" far fa-star position-absolute"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card col-xl-4 mt-3 ">
+                <div class="row no-gutters m-2">
+                    <div class="col-sm-4">
+                        <div id="discount" class="d-flex flex-column text-white bg-danger position-absolute"> 15% OFF
+                        </div>
+                        <img src="images/products/07.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="card-body">
+                            <div class="heart"> <i class="fas fa-heart"></i></div>
+                            <div class="card-title display-8">watch </div>
+                            <div class="display-11 mb-2"> Computers & Accossaries</div>
+                            <div class="display-10 mb-2">$5299</div>
+                            <p class="card-text display-9">This is a wider card with supporting text below as a natural
+                                lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <div><i class="cart fas fa-cart-plus mt-3"></i> </div>
+                            <div class="star"> 5
+                                <span class=" far fa-star position-absolute"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card  col-lg-4 mt-3 ">
+                <div class="row no-gutters m-2">
+                    <div class="col-sm-4">
+                        <div id="discount" class="d-flex flex-column text-white bg-danger position-absolute"> 95% OFF
+                        </div>
+                        <img src="images/products/iMac.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="card-body">
+                            <div class="heart"> <i class="fas fa-heart"></i></div>
+                            <div class="card-title display-8">IMac Laptop</div>
+                            <div class="display-11 mb-2"> Computers & Accossaries</div>
+                            <div class="display-10 mb-2">$5299</div>
+                            <p class="card-text display-9">This is a wider card with supporting text below as a natural
+                                lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <div><i class="cart fas fa-cart-plus mt-3"></i> </div>
+                            <div class="star"> 5
+                                <span class=" far fa-star position-absolute"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card  col-xl-4 mt-3">
+                <div class="row no-gutters m-2">
+                    <div class="col-sm-4">
+                        <div id="discount" class="d-flex flex-column text-white bg-danger position-absolute"> 50% OFF
+                        </div>
+                        <img src="images/products/MSMouse.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="card-body">
+                            <div class="heart"> <i class="fas fa-heart"></i></div>
+                            <div class="card-title display-8">Console</div>
+                            <div class="display-11 mb-2"> Computers & Accossaries</div>
+                            <div class="display-10 mb-2">$299</div>
+                            <p class="card-text display-9">This is a wider card with supporting text below as a natural
+                                lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <div><i class="fas fa-cart-plus mt-3"></i> </div>
+                            <div class="star"> 4
+                                <span class=" far fa-star position-absolute"></span>
+                            </div>
+                        </div>
+                    </div>
+             </div>
+
+        </section>
+
+
+        <!-- Default dropup button -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

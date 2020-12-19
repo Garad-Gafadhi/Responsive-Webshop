@@ -1,0 +1,21 @@
+/* Catagories and products */
+
+/* Product-card */
+
+
+@media (min-width:1024px) {
+  .products { 
+      flex-direction: row !important;
+     
+  }
+  #catagories {
+    height: 27rem !important;
+  }
+}
+
+@media (min-width:1024px) {
+  .catagories-products { 
+      flex-direction: row !important;
+      width: 100% !important;
+  }
+}

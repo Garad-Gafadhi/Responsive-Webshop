@@ -1,0 +1,14 @@
+.max-width {
+  max-width: 1920px !important;
+}
+
+body html {
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+  background-color: rgb(231, 231, 221);
+  box-sizing: border-box;
+}
+.h1 {font-size: 3rem !important;}
+.rounded-100 {border-radius: 100% !important;}

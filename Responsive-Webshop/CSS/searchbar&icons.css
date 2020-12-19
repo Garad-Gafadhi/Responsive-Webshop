@@ -1,0 +1,21 @@
+
+  /* Title, searchbar and icons */
+  @media (min-width: 1024px) {
+    #searchbar { width: 55%; }
+}
+/* Searchbar corners */
+.form-control {
+  border-radius: 0rem !important;
+}
+  #store-img {width: 10rem !important;}
+
+  @media (max-width: 576px) {
+    #my-store { flex-direction: column !important; }
+    #store-img {order: 1; margin: auto !important;
+    height: 40px;
+    margin-bottom: 10px;
+    }
+    #store-icons {order: 2; justify-content: center !important}
+    #searchbar {order: 3 ; width: 100%;}
+    #store {display: flex !important;}
+}

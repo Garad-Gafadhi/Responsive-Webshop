@@ -1,0 +1,43 @@
+.heading-font{
+    font-family: "Dosis", "Open Sans", sans-serif;}
+
+    .display-5{
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    .display-6{
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    .display-7{
+        font-size: 1.75rem;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    .display-8{
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    .display-9{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.2rem;
+        font-weight: 200;
+        line-height: 1.2;
+    }
+    .display-10{
+        font-family: cursive;
+
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .display-11{
+        font-family: 'Courier New', Courier, monospace;
+
+        font-size: 1.2rem;
+        font-weight: 100;
+        line-height: 1;
+    }

@@ -1,0 +1,13 @@
+/* Hidden features */
+
+@media (max-width:767px) {
+  .hide-user {display: none !important;}
+}
+@media (max-width:767px) {
+  .contact {display: none !important;}
+}
+
+@media (min-width:576px) {
+  .menu {display: none !important;
+  }
+}

@@ -1,0 +1,39 @@
+
+/* shoping-carts */
+@media (max-width:576px) {
+  .shoping-carts  {
+      border-right: 1px solid rgba(219, 219, 217, 0.678) ;
+      height: 2.5rem !important;
+  }
+ 
+.menu{
+      font-size: 20px;
+      margin-top: -25px;
+      margin-right: 3.5rem;
+      font-weight: bold;
+      margin-left: 1rem;
+  }
+
+  }
+  .favs {
+      font-size: 20px;
+      font-weight: bold;
+      margin-left: 0rem;
+  }
+  .cart {
+      font-size: 20px;
+      font-weight: bold;
+  }
+  .total {
+      font-size: 20px;
+      font-weight: bold;
+      margin-left: 1rem;
+  }
+
+.shoping-carts {
+  border-right: 1px solid rgba(219, 219, 217, 0.678) ;
+  height: 5rem !important;
+  align-items: center !important;
+  overflow: hidden;
+  display: flex;
+}
